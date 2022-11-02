@@ -1,0 +1,107 @@
+lekhAH:
+  about_msg: About Lipi Lekhika
+  about_text:
+    "This is an Application to type Indian Languages with full speed and
+    accuracy.
+
+    For more information refer to {0}App's Website{1}."
+  anya_nirdesh: Use .q (zero width joiner) to seperate consonant clusters.
+  download_link: Download Lipi Lekhika
+  home_link: Go to Lipi Lekhika's Home Page
+  no_prvrtn: "Write Between #^ and ^# to prevent Transliteration."
+  parivartak: Lipi Parivartak
+  sahayika_text: Lekhan Sahayika
+  show_lic: Show Licence
+  show_table: View Usage Table
+  source_link: Veiw Lipi Lekhika's Source Code
+  script_set: Set Typing Language
+  defal_msg: Set Default Options
+  setting: Setting
+  issue: Report an issue
+others:
+  convert: Convert
+  page_title: Lipi Lekhika Online | Type Indian Languages with full Speed and Accuracy
+  title_lang: "{0} - Lipi Lekhika | Type {0} with full Speed and Accuracy"
+  title_convert: "{0} - Lipi Parivartak | Lipi Lekhika | Convert Indian Scripts"
+  place: Type Text Here {0}
+  from: '{0} to {1}'
+sahayika:
+  down: Show Instructions
+  icon: Go to Lipi Lekhika's Web Site
+  ins:
+    "Press or Click Characters in black for their corresponding akshara.\n Press\
+    \ ; or q to reset or to remove continuations."
+  title: "Lipi Lekhika's Lekhan Sahayika
+
+    Type Indian Languages with full Speed and Accuracy"
+  up: Hide Instructions
+scripts:
+  Assamese: Assamese
+  Bengali: Bengali
+  Brahmi: Brahmi
+  Devanagari: Devanagari
+  Purna-Devanagari: Purna Devanagari
+  Granth: Granth
+  Gujarati: Gujarati
+  Hindi: Hindi
+  Kannada: Kannada
+  Konkani: Konkani
+  Malayalam: Malayalam
+  Marathi: Marathi
+  Modi: Modi
+  Nepali: Nepali
+  Normal: Normal
+  Odia: Odia
+  Kashmiri: Kashmiri
+  Sindhi: Sindhi
+  Punjabi: Punjabi
+  Romanized: Romanized
+  Sanskrit: Sanskrit
+  Sharada: Sharada
+  Siddham: Siddham
+  Sinhala: Sinhala
+  Tamil: Tamil
+  Tamil-Extended: Tamil Extended
+  Telugu: Telugu
+  Urdu: Urdu
+  Vedic: Vedic Symbols
+title:
+  app_lang: Set Lipi Lekhika's User Interface Language
+  back: Go To Home Page
+  close_img: Close
+  cpy_btn: Copy Text
+  en-in: English
+  hi-in: Hindi
+  bn-in: Bengali
+  sa-in: Sanskrit
+  kn-in: Kannada
+  ta-in: Tamil
+  te-in: Telugu
+  ml-in: Malayalam
+  gu-in: Gujarati
+  mr-in: Marathi
+  ur-in: Urdu
+  pa-in: Punjabi
+  or-in: Odia
+  as-in: Assamese
+  hide_warning: Hide Warning
+  image: Usage Table
+  imgoff: Turn On
+  imgoff1: Turn Lekhan Sahayika On
+  imgon: Turn Off
+  imgon1: Turn Lekhan Sahayika Off
+  imgonlipi: Turn Lipi Lekhika On
+  imgofflipi: Turn Lipi Lekhika Off
+  lekhan_sahayika: Typing Helper
+  mukhya_lekhan: Lipi Lekhika Type Indian Languages with Full Speed and Accuracy
+  parivartak: Script Converter
+  sa_0: Sanskrit Mode Off
+  sa_1: Sanskrit Mode On
+  typ_lang: Choose Typing Language
+  usage_btnm: Lipi Lekhika Usage Instructions
+  redirect_msg: Go To More Appropriae Version of This Page
+  setting: Set Lipi Lekhik's Default Options
+  anuvadak: Translate using Google Translate
+  git: View Lipi Lekhika's Source Code on Github
+  menu: Lipi Lekhika's App Menu
+  img_download: Download Usage Table Image

@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 1111,
+    "liveServer.settings.host":"localhost",
+    "liveServer.settings.donotVerifyTags": false,
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.formatting.provider": "black",
+    "liveServer.settings.root": "/src",
+}

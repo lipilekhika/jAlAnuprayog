@@ -1,0 +1,11 @@
+APK Editor
+*/a.html
+*/a.py
+*/a.js
+*/a.txt
+*/a.asp
+*__pycache__
+anuvad/r.json
+cmd.cmd
+*node_modules
+.pnpm-debug.log

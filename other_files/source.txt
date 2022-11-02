@@ -1,0 +1,19 @@
+Type Indian Languages with full Speed and Accuracy
+
+Website : lipilekhika.com
+Online Typing Tool : https://app-lipilekhika.pages.dev
+
+Lipi Lekhika Enables you Type Indian Languages with full Speed and Accuracy.
+Lipi Lekhika Supports Hindi, Bengali, Telugu, Tamil, Marathi, Gujarati, Malayalam, Kannada, Odia(Oriya), Konkani, Assamese, Sanskrit, Punjabi(Gurumukhi), Nepali, Sinhala, Urdu, Romanized (ISO) standard for Indian Languages. Support For Modi, Sharda, Brahmi, Siddham and Granth also availalble.
+Just Type in English(with few simple rules added for accuracy) and get it accurately transcribed in Languages Mentioned above, a simple Fast Transliteration Tool for full Accuracy and speed of course.
+Portable Version Download Link : https://rebrand.ly/lekhika_portable
+
+Use the source code link to browse other older versions of Lipi Lekhika.
+
+Lekhan Sahayika (Typing Helper) to Help you while Typing
+Online Version Runs on all devices and Windows Version is designed for Real-Time Typing
+Elegant, Intuitive and Natural Usage Tables Designed for Each Language
+Supports 15 Indian Languages and 5 Additional Scripts
+Lipi Parivartak (Script Converter) available in the Online Version to convert one Script to Another
+Vedic Sanskrit Support Available for All Languages
+Free API also Available to Embed Lipi Lekhika into Websites (https://rebrand.ly/lekhika_api)
