@@ -35,9 +35,6 @@ for xc in argv[-1]:
                         f"{root+app_loc}\\src\\dattAMsh\\{x}",
                         f"{root+web_loc}\\src\\dattAMsh\\{x}",
                     )
-        data = data.replace(
-            'this.sanchit = "src/dattAMsh"', 'this.sanchit = "/src/dattAMsh"'
-        )
         data = data.replace('// this.git("su");', 'this.git("su");')
         data = data.replace("// this.git(lang);", "this.git(lang);")
         print(xc, "    kRt")
@@ -92,7 +89,7 @@ for xc in argv[-1]:
             + sh.read("src/src/lib.js")
         )
         rpl = {
-            'this.sanchit = "src/dattAMsh"': 'this.sanchit = "https://cdn.jsdelivr.net/gh/lipilekhika/dist@latest/src/dattAMsh"',
+            'this.sanchit = "/src/dattAMsh"': 'this.sanchit = "https://cdn.jsdelivr.net/gh/lipilekhika/dist@latest/src/dattAMsh"',
             "$lf.getScript(`https://github.com/lipilekhika/dist/releases/download/jala/${x}.js`)": "$lf.getScript(`https://github.com/lipilekhika/dist/releases/download/ext/${x}.js`)",
             '// this.git("su");': 'this.git("su");',
             "// this.git(lang);": "this.git(lang);",
