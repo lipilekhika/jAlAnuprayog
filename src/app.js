@@ -598,6 +598,7 @@ class अनुप्रयोगः {
     return url;
   }
   set_lang_text(val = $l("#app_lang").val()) {
+    app.set_link();
     let data = app.lang_texts[val];
     let tlt = data.others.page_title,
       t1 = data.scripts;
@@ -645,7 +646,6 @@ class अनुप्रयोगः {
     if (s.mode == 1)
       for (let x of $l("a").elm)
         for (let g of ["href", "target", "rel"]) x.removeAttribute(g);
-    this.set_link();
   }
   store_values(name, val, defal = false) {
     if (defal) {
