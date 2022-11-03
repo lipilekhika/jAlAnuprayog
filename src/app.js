@@ -653,21 +653,15 @@ class अनुप्रयोगः {
         case "script":
           storage.setItem(name, "Hindi");
           break;
-        case "app_lang":
-          storage.setItem(name, "English");
-          break;
         case "sahayika":
           storage.setItem(name, "on");
           break;
       }
     } else {
-      if (!app.in(["app_lang", "script", "sahayika"], name)) return;
+      if (!app.in(["script", "sahayika"], name)) return;
       switch (name) {
         case "script":
           if (!(val in app.lipyaH)) return;
-          break;
-        case "app_lang":
-          if (!(val in app.lang_list)) return;
           break;
         case "sahayika":
           if (!(val == "on" || val == "off")) return;
@@ -683,12 +677,6 @@ class अनुप्रयोगः {
         case "script":
           if (!(val in app.lipyaH)) {
             val = "Hindi";
-            this.store_values(name, val);
-          }
-          break;
-        case "app_lang":
-          if (!(val in app.lang_list)) {
-            val = "English";
             this.store_values(name, val);
           }
           break;
@@ -734,7 +722,7 @@ setTimeout(async () => {
   }
   if (true) {
     //setting values
-    if (!("app_lang" in s)) s["app_lang"] = app.get_values("app_lang");
+    if (!("app_lang" in s)) s["app_lang"] = "English";
     if (!("main_lang" in s)) s["main_lang"] = app.get_values("script");
     if (!("from" in s)) s["from"] = s["main_lang"];
     if (!("to" in s)) s["to"] = "Romanized";
