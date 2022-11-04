@@ -168,7 +168,7 @@ class अनुप्रयोगः {
     if (true) {
       //about
       $l("#licence_btn").on("click", () => {
-        $lf.get("/LICENCE.txt").then((v) => {
+        $lf.get("/src/LICENCE.txt").then((v) => {
           $l("#licence").html(app.k.replace_all(v, "\n", "<br>"));
           $l("#licence").show();
           $l("#licence_btn").hide();
@@ -593,9 +593,10 @@ class अनुप्रयोगः {
     url = `${(locale !== "en" ? "/" + locale : "") + url}`;
     if ($lf.last(url) === "/" && url.length !== 1)
       url = url.substring(0, url.length - 1);
-    let stateObj = { id: "100" };
-    window.history.pushState(stateObj, $l("title").html(), url);
-    return url;
+    try {
+      let stateObj = { id: "100" };
+      window.history.pushState(stateObj, $l("title").html(), url);
+    } catch {}
   }
   set_lang_text(val = $l("#app_lang").val()) {
     app.set_link();
@@ -741,9 +742,7 @@ setTimeout(async () => {
   $l("#main_val").check(true);
   setTimeout(async () => {
     // waiting for main process to complete
-    let el = $lf.make(
-      await $lf.get(app.k.substring(app.k.image_loca, 0, -5) + "/img.asp")
-    );
+    let el = $lf.make(await $lf.get("/img/img.asp"));
     for (let x of el.children) {
       let elm = $l(`[chv=${x.getAttribute("nm")}]`).html(x.innerHTML);
       elm.addClass("imgs");
