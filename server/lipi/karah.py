@@ -1,9 +1,9 @@
 import shubhlipi as sh, json, os
 
-root = sh.env("sthAnam") + "\\jAlAnuprayogaH\\server\\lipi\\"
+root="./"
 loc = {
-    "app.js": "o\\index.js",
-    "lipi.js": "o\\lipi.js",
+    "app.js": "o/index.js",
+    "lipi.js": "o/lipi.js",
 }
 if sh.args(0) == "clone":
     sh.cmd("deta clone --name lipi")
@@ -21,7 +21,7 @@ for lc in loc:
     print(lc, 200)
 pkg_req = json.loads(sh.read("o/package.json"))["dependencies"]
 pkg_all = json.loads(
-    sh.read(sh.env("sthAnam") + r"\jAlAnuprayogaH\server\lipi\package.json")
+    sh.read("package.json")
 )["dependencies"]
 new_pkg = {}
 for x in pkg_req:
