@@ -1,0 +1,10 @@
+v: 0
+app_name: "lipi"
+micros:
+  - name: lipi
+    src: ./
+    engine: nodejs16
+    run: "node app.js"
+    primary: true
+    public_routes:
+      - "/*"
