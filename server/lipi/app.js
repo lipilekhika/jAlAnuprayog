@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 var lipi1 = require("./lipi.js");
 var lipi = lipi1.lipi;
+
+const shrinkRay = require("shrink-ray-current");
+
+app.use(shrinkRay());
 app.use(async (req, res, next) => {
   res.header({
     "Access-Control-Allow-Origin": "*",
